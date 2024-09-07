@@ -15,8 +15,10 @@ finally, run `npm run dev`
 for the dev script, nodemon is used so that once the files update, the server will be immediately reloaded.
 
 # prod deploy
+## vercel hosting, netlify hosting, etc etc
 for production deployment, make an environment variable called `DATABASE_URL` and add your mongodb url as the data, for example `DATABASE_URL=mongodb://mongodb.com:27017/subscribers` on whatever platform ur hosting this on.
 then, run `npm i` and then `npm run start`
 
+## server hosting
 if you are hosting this on a server, follow the steps on local deploy.
 but for the last command, instead of `npm run dev`, run `npm run start`
