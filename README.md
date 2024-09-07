@@ -1,4 +1,4 @@
-# local deploy
+# local testing deploy
 for testing locally, add a ".env" file.
 inside the file, add 
 ```
